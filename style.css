@@ -5,23 +5,13 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-html{
-    font-size: 13px;
-}
-
 body{
     background-color: hsl(214, 17%, 92%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    padding: 8rem 5rem;
 }
 
 .container{
-    width: 70%;
-    max-width: 1440px;
-    height: 80%;
-    max-height: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -31,14 +21,14 @@ body{
 
 .card{
     border-radius: 8px;
-    padding: 25px;
+    padding: 2rem;
     box-shadow: 5px 5px 50px -15px hsl(217, 19%, 35%);
 }
 
 .top{
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .img{
@@ -55,8 +45,6 @@ body{
     margin: 18px 0px;
     font-size: 18px;
 }
-
-
 
 .daniel{
     background-color: hsl(263, 55%, 52%);
