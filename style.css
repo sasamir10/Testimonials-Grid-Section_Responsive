@@ -80,9 +80,10 @@ body{
     border: 2px solid hsl(264, 82%, 80%);
 }
 
-@media (max-width: 775px) {
+@media (max-width: 480px) {
     body{
         height: auto;
+        padding: 3rem 1rem;
     }
 
     .container{
